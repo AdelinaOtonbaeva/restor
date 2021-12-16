@@ -232,6 +232,7 @@
                         <ImageView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:id="@id/imageView"
                             android:contentDescription="@string/daily_meals"
                             app:srcCompat="@drawable/whatsapp_image_2020_06_16_at_4_23" />
 
