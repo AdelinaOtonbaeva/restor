@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/star"
+        android:title="Favorites" />
+    <item android:icon="@drawable/user"
+        android:title="Profile"/>
+    <item android:icon="@drawable/bag___3"
+        android:title="Bag"/>
+    <item android:icon="@drawable/discovery"
+        android:title="Discover"/>
+</menu>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">dzhumanazarov-tilek-final</string>
+    <string name="home">Home</string>
+    <string name="_21_42_34_banjara_hills_hyder">21-42-34, Banjara Hills, Hyder....</string>
+    <string name="search_food_nearby">Search food nearby</string>
+    <string name="your_preferences">Your Preferences</string>
+    <string name="edit">Edit</string>
+    <string name="user_4">User 4</string>
+    <string name="name">Name:</string>
+    <string name="user_1">User 1</string>
+    <string name="favourite_curations">Favourite Curations:</string>
+    <string name="favourite_dishes">Favourite Dishes:</string>
+    <string name="daily_meals">Daily Meals</string>
+    <string name="line">Line</string>
+    <string name="favorites">Favorites</string>
+    <string name="back">back</string>
+    <string name="pen">pen</string>
+    <string name="field">field</string>
+</resources>
