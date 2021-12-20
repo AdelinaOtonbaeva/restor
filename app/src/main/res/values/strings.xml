@@ -12,8 +12,11 @@
     <string name="favourite_dishes">Favourite Dishes:</string>
     <string name="daily_meals">Daily Meals</string>
     <string name="line">Line</string>
-    <string name="favorites">Favorites</string>
     <string name="back">back</string>
     <string name="pen">pen</string>
     <string name="field">field</string>
+    <string name="favorites">Favorites</string>
+    <string name="profile">Profile</string>
+    <string name="bag">Bag</string>
+    <string name="discover">Discover</string>
 </resources>

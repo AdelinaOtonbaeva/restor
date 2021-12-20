@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:icon="@drawable/star"
-        android:title="Favorites" />
+        android:title="@string/favorites" />
     <item android:icon="@drawable/user"
-        android:title="Profile"/>
+        android:title="@string/profile"/>
     <item android:icon="@drawable/bag___3"
-        android:title="Bag"/>
+        android:title="@string/bag"/>
     <item android:icon="@drawable/discovery"
-        android:title="Discover"/>
+        android:title="@string/discover"/>
 </menu>
