@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Resto">
         <activity
+            android:name=".FifthScreen"
+            android:exported="true" />
+        <activity
             android:name=".FourthScreen"
             android:exported="true" />
         <activity

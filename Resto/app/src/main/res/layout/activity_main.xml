@@ -45,6 +45,7 @@
 
      <androidx.constraintlayout.widget.ConstraintLayout
          android:layout_width="match_parent"
+         android:id="@+id/constraint"
          android:layout_height="180dp"
          android:padding="30dp"
          android:background="@drawable/image_6">
@@ -92,6 +93,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/map"
+        android:id="@+id/map"
         android:background="@color/gray"
         app:layout_constraintBottom_toTopOf="@+id/nav_view"
         app:layout_constraintEnd_toEndOf="parent"

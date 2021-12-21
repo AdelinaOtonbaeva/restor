@@ -52,7 +52,7 @@
             android:layout_marginStart="100dp"
             android:layout_marginBottom="100dp"
             android:background="@color/gray"
-            android:text="8"
+            android:text="@string/_8"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
@@ -63,7 +63,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="100dp"
             android:background="@color/gray"
-            android:text="8"
+            android:text="@string/_8"
             app:layout_constraintBottom_toTopOf="@+id/button2"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -73,7 +73,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@color/gray"
-            android:text="4"
+            android:text="@string/_4"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/button3"
             app:layout_constraintStart_toStartOf="parent"
@@ -106,13 +106,13 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Time"
+                android:text="@string/time"
                 android:textColor="@color/black" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="7:00 PM"
+                android:text="@string/_7_00_pm"
                 android:textColor="@color/black"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -130,13 +130,13 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Month"
+                android:text="@string/month"
                 android:textColor="@color/black" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Dec"
+                android:text="@string/dec"
                 android:textColor="@color/black"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -154,13 +154,13 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Date"
+                android:text="@string/date"
                 android:textColor="@color/black" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="24"
+                android:text="@string/_24"
                 android:textColor="@color/black"
                 android:textStyle="bold" />
         </LinearLayout>

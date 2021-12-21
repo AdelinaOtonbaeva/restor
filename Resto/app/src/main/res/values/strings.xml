@@ -5,4 +5,21 @@
     <string name="buhara_assorti">Buhara Assorti</string>
     <string name="mederova_167">Mederova 167</string>
     <string name="reserve">Reserve</string>
+    <string name="avarage_price">Avarage price</string>
+    <string name="rating">Rating</string>
+    <string name="status">Status</string>
+    <string name="select_a_table">Select a table</string>
+    <string name="_8">8</string>
+    <string name="_4">4</string>
+    <string name="time">Time</string>
+    <string name="_7_00_pm">7:00 PM</string>
+    <string name="month">Month</string>
+    <string name="dec">Dec</string>
+    <string name="date">Date</string>
+    <string name="_24">24</string>
+    <string name="dec_7_00pm">Dec. 7:00PM</string>
+    <string name="cancel">Cancel</string>
+    <string name="edit">Edit</string>
+    <string name="approve">Approve</string>
+    <string name="bishkek">Bishkek</string>
 </resources>

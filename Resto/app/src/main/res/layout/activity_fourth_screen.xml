@@ -12,13 +12,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/gray"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent">
+        app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
             android:layout_width="wrap_content"
+            android:id="@+id/back1"
             android:layout_height="wrap_content"
+            android:contentDescription="@string/todo"
             app:srcCompat="@drawable/ic_baseline_arrow_back_ios_24" />
     </Toolbar>
 
@@ -35,6 +37,7 @@
             android:id="@+id/imageView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:contentDescription="@string/todo"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -45,6 +48,7 @@
             android:id="@+id/imageView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:contentDescription="@string/todo"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -55,6 +59,7 @@
             android:id="@+id/imageView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:contentDescription="@string/todo"
             app:layout_constraintBottom_toBottomOf="@+id/imageView2"
             app:layout_constraintEnd_toEndOf="@+id/imageView2"
             app:layout_constraintStart_toStartOf="parent"
@@ -65,6 +70,7 @@
             android:id="@+id/imageView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:contentDescription="@string/todo"
             app:layout_constraintBottom_toBottomOf="@+id/imageView2"
             app:layout_constraintEnd_toEndOf="@+id/imageView2"
             app:layout_constraintStart_toStartOf="@+id/imageView2"
@@ -114,17 +120,19 @@
                 android:orientation="vertical"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent">
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="UseCompoundDrawables">
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:contentDescription="@string/todo"
                     app:srcCompat="@drawable/ic_baseline_calendar_today_24" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Dec. 7:00PM"
+                    android:text="@string/dec_7_00pm"
                     android:textColor="@color/black" />
             </LinearLayout>
 
@@ -137,17 +145,19 @@
                 android:orientation="vertical"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent">
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="UseCompoundDrawables">
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:contentDescription="@string/todo"
                     app:srcCompat="@drawable/ic_baseline_person_24" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Dec. 7:00PM"
+                    android:text="@string/dec_7_00pm"
                     android:textColor="@color/black" />
             </LinearLayout>
 
@@ -167,7 +177,7 @@
                 android:id="@+id/textView3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Cancel"
+                android:text="@string/cancel"
                 android:textColor="@color/red"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />
@@ -175,7 +185,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Edit"
+                android:text="@string/edit"
                 android:textColor="@color/gray"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -189,7 +199,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#34975C"
-        android:text="Approve"
+        android:text="@string/approve"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout2" />
 
