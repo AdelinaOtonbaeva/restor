@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/ic_Home"
+        android:title="@string/home"
+        android:icon="@drawable/coolicon"/>
+    <item android:id="@+id/ic_Bag"
+        android:title="@string/bag"
+        android:icon="@drawable/group_8"/>
+    <item android:id="@+id/ic_Catalog"
+        android:title="@string/catalog"
+        android:icon="@drawable/exclude"/>
+    <item android:id="@+id/ic_Favorites"
+        android:title="@string/favorites"
+        android:icon="@drawable/exclude__1_"/>
+
+</menu>

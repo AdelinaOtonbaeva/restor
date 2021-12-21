@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">bottom nav</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="home">Home</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="we_recommend">We recommend</string>
+    <string name="nike_air_zoom_crossover">Nike Air Zoom Crossover</string>
+    <string name="basketball_shoes">Basketball shoes</string>
+    <string name="the_first_basketball_shoe_inspired_by_ladies_of_the_league">The first basketball shoe inspired by ladies of the league.</string>
+    <string name="_85">$85</string>
+    <string name="_00">.00</string>
+    <string name="add">Add</string>
+    <string name="bag">Bag</string>
+    <string name="catalog">Catalog</string>
+    <string name="favorites">Favorites</string>
+    <string name="all">All</string>
+</resources>

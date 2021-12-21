@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Resto</string>
+    <string name="map">Map</string>
+    <string name="todo">TODO</string>
+    <string name="buhara_assorti">Buhara Assorti</string>
+    <string name="mederova_167">Mederova 167</string>
+    <string name="reserve">Reserve</string>
+</resources>
